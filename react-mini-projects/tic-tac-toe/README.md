@@ -18,3 +18,5 @@ A classic Tic Tac Toe game built with React by following the official React docu
 ```bash
 npm install
 npm run dev
+## 📸 Screenshot
+![Tic Tac Toe Screenshot](./public/tic-tac-toe.png)
