@@ -25,4 +25,4 @@ A simple React application that fetches users from an API and displays detailed 
 ### 🛠 Tech Stack
 - React
 - Axios
-- J
+- JSON
