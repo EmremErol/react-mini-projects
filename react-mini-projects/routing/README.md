@@ -1,13 +1,14 @@
-# React Router – Contact Page
+# React Router – Users App
 
-This project was built to practice **page routing** using **React Router DOM**.  
-It includes a simple navigation between a home page and a contact page.
+This project was built to practice **React Router** and **dynamic routing**.
+It displays a list of users and shows **user details** using URL parameters.
 
 ## 🚀 Features
-- Page navigation with React Router DOM
-- Simple and clean component structure
-- Single Page Application (SPA) logic
-- Basic Contact page example
+- Users list fetched from API
+- Dynamic routing with React Router DOM
+- User detail page using `useParams`
+- Navigation between list and detail pages
+- Single Page Application (SPA) structure
 
 ## 🛠 Technologies Used
 - React
@@ -15,9 +16,9 @@ It includes a simple navigation between a home page and a contact page.
 - JavaScript (ES6)
 - HTML & CSS
 
-## 📂 Pages
-- `/` → Home Page
-- `/contact` → Contact Page
+## 📂 Routes
+- `/users` → Users list
+- `/users/:id` → User detail page
 
 ## ⚙️ Installation
 To run the project locally:
