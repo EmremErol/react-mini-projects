@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './pages/Home.js';
 import Users from './pages/Users.js';
 import Contact from './pages/Contact.js';
+import UsersDetail from './pages/UsersDetail.js';
 import Header from './components/Header.js';
 
 //pages
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element= {<Home/>} />
           <Route path="users" element= {<Users/>} />
+          <Route path="users/:id" element={<UsersDetail/>} /> 
           <Route path="contact" element = {<Contact/>}/>
         </Routes>
       </BrowserRouter>
