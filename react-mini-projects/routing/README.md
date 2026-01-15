@@ -4,13 +4,19 @@ This project was built to practice **React Router** and **dynamic routing**.
 It displays a list of users and shows **user details** using URL parameters.
 
 ## 🚀 Features
-- Users list fetched from API
 - Dynamic routing with React Router DOM
-- User detail page using `useParams`
+- Shared layout with nested routes
+- Users list and user detail pages
 - Passing data between routes using route state
-- Reading route state with `useLocation`
+- Login and Register pages
 - Single Page Application (SPA) structure
 
+## 📌 What I Learned
+- Creating shared layouts using React Router `Outlet`
+- Managing nested routes
+- Passing state between routes
+- Building login and register pages
+- Structuring real-world frontend applications
 
 ## 🛠 Technologies Used
 - React
@@ -21,6 +27,8 @@ It displays a list of users and shows **user details** using URL parameters.
 ## 📂 Routes
 - `/users` → Users list
 - `/users/:id` → User detail page
+- `/login` → Login page
+- `/register` → Register page
 
 ## ⚙️ Installation
 To run the project locally:
