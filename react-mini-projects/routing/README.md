@@ -7,8 +7,10 @@ It displays a list of users and shows **user details** using URL parameters.
 - Users list fetched from API
 - Dynamic routing with React Router DOM
 - User detail page using `useParams`
-- Navigation between list and detail pages
+- Passing data between routes using route state
+- Reading route state with `useLocation`
 - Single Page Application (SPA) structure
+
 
 ## 🛠 Technologies Used
 - React

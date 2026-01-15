@@ -17,7 +17,7 @@ function Users() {
       {
         users.map((user) =>(
           <ul key={user.id}>
-            <li><Link to={`${user.id}`}>{user.name}</Link></li>
+            <li><Link to={`${user.id}`} state={user}>{user.name}</Link></li>
           </ul>
         ))
       }
