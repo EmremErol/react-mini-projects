@@ -8,6 +8,7 @@ import Login from './pages/Auth/Login.js'
 import DashboardLayout from './layouts/Dashboard/index.js';
 import AuthLayout from './layouts/Auth/index.js';
 import Register from './pages/Auth/Register.js';
+import Error404 from './pages/Error404.js';
 
 //pages
 function App() {
@@ -26,7 +27,8 @@ function App() {
             <Route index element = {<Login/>}/>
             <Route path="register" element = {<Register/>}/>
           </Route>
-
+          
+          <Route path="*" element={<Error404/>} />
         </Routes>
       </BrowserRouter>
     </div>
