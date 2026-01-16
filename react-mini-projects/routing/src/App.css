@@ -9,3 +9,13 @@
   padding:10px 0px;
   column-gap:10px;
  }
+ .form > div{
+    margin-bottom :10px;
+ }
+ .form > div > label {
+    display:block;
+ }
+ .form > div > input, .form > div > textarea  {
+    padding:5px;
+    
+ }
