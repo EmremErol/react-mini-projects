@@ -10,17 +10,21 @@ It displays a list of users and shows **user details** using URL parameters.
 - Passing data between routes using route state
 - Login and Register pages
 - Single Page Application (SPA) structure
+- Form validation using Formik and Yup
 
 ## 📌 What I Learned
 - Creating shared layouts using React Router `Outlet`
 - Managing nested routes
 - Passing state between routes
 - Building login and register pages
+- Implementing form validation with Yup
 - Structuring real-world frontend applications
 
 ## 🛠 Technologies Used
 - React
 - react-router-dom
+- Formik
+- Yup
 - JavaScript (ES6)
 - HTML & CSS
 

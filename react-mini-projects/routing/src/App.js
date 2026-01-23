@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './pages/Dashboard/Home.js';
 import Users from './pages/Dashboard/Users.js';
-import Contact from './pages/Dashboard/Contact.js';
+import Contact from './pages/Dashboard/contact/index.js';
 import UsersDetail from './pages/Dashboard/UsersDetail.js';
 import Login from './pages/Auth/Login.js'
 import DashboardLayout from './layouts/Dashboard/index.js';
